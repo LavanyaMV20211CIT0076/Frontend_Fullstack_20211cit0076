@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+	<title>My Restaurant</title>
+<style>
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+#rot{
+  transform: rotate(20deg);
+}
+#grad1 {
+  height: 100px;  
+  background-image: conic-gradient(lightgreen,white,cyan);
+}
+#grad2 {
+  height: 50px;  
+  background-image: linear-gradient(whitesmoke,orchid);
+
+}
+#grad2 h2{
+    color:white;
+}
+header {
+	background-color:#AF69EE;
+	color: white;
+	padding: 20px;
+}
+nav a {
+	color: white;
+	text-decoration: none;
+	margin-right: 20px;
+}
+nav a:hover {
+	color: #ffcc00;
+}
+
+main {
+	background-color: white;
+	padding: 50px;
+	text-align: center;
+}
+main h2 {
+	color: #333;
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+main p {
+	color: #666;
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 50px;
+}
+main img {
+	max-width: 100%;
+	height: auto;
+	margin-top: 20px;
+	box-shadow: 0px 0px 10px #333;
+}
+
+section {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background-color: #fff;
+	padding: 50px;
+}
+.menu-item {
+	flex-basis: 30%;
+	margin-bottom: 50px;
+	box-shadow: 0px 0px 10px #999;
+	padding: 0px;
+	text-align: center;
+}
+.menu-item img {
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+}
+.menu-item h3 {
+	color: #333;
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+.menu-item p {
+	color: #666;
+	font-size: 16px;
+	line-height: 1.5;
+}
+#rot{
+    height: 100px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(blue, yellow);
+    background-image: conic-gradient(lightgreen, white, cyan);
+}
+#menu{
+    color: #DE5D83;
+    text-align: center;
+}
+#loc{
+    text-align: center;
+}
+/* Footer styles */
+footer {
+	background-color: #333;
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+footer p {
+	font-size: 14px;
+	margin: 0;
+}
+/* Gradient styles */
+header {
+	background: linear-gradient(to bottom, #333 0%, #666 100%);
+}
+nav a:hover {
+	background: linear-gradient(to bottom, #ffcc00 0%, #ff9900 100%);
+}
+section {
+	background: radial-gradient(circle, #fff 0%, #eee 100%);
+}
+.menu-item:hover {
+	background: linear-gradient(to bottom, #eee 0%, #fff 100%);
+	transform: translateY(-5px);
+}
+footer {
+	background: linear-gradient(to bottom, #666 0%, #333 100%);
+</style>
+</head>
+<body>
+	<header>
+		<h1>Bon Voyage Restaurant</h1>
+		<nav>
+			<a href="#grad2">Home</a>
+			<a href="#m1">Menu</a>
+			<a href="#c1">Contact Us</a>
+		</nav>
+	</header>
+    <h3><marquee behavior="alternate" direction="right">Welcome to Bon Voyage Restaurant</marquee></h3>
+
+	<main>
+<div id="grad2">
+		<h2>About Us</h2>
+    </div>
+		<p>My Restaurant is a new restaurant opening soon in your city. Our mission is to provide our customers with delicious food and excellent service in a comfortable and friendly environment.</p>
+		<img src="https://hashtagmagazine.in/wp-content/uploads/2022/07/image-23.png" alt="Restaurant Image">
+</div>
+	</main>
+    <div id="menu"><h1 id="m1">MENU</h1></div>
+	
+<section>
+		<div class="menu-item">
+			<img src="https://www.southernliving.com/thmb/3x3cJaiOvQ8-3YxtMQX0vvh1hQw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2652401_QFSSL_SupremePizza_00072-d910a935ba7d448e8c7545a963ed7101.jpg" alt="Pizza image">
+			<h3>Pizza</h3>
+			<p>If you're a vegetarian, you'll love Domino's Veg Extravaganza, Indi Tandoori Paneer, and Mexican Green Wave. For non-vegetarians, Non-Veg Supreme, Chicken Fiesta, and Indi Chicken Tikka top the list. Though these are the most loved Domino's pizzas along with the cheesy Margherita pizza, you should check out the Domino's menu to see what you like the most.</p>
+		</div>
+		<div class="menu-item">
+			<img src="https://www.thecookierookie.com/wp-content/uploads/2023/04/featured-stovetop-burgers-recipe.jpg" alt="burger image">
+			<h3>Burger</h3>
+			<p>Nine Different Types of Burgers to Make<br> Turkey burger. ...<br>Portobello mushroom burger. ...<br>Veggie burger. ...<br>Wild salmon burger. ...<br>Bean burger. ...<br>Cheeseburger</p>
+		</div>
+		<div class="menu-item">
+			<img src="https://www.homecookingadventure.com/wp-content/uploads/2022/01/chicken-lasagna-main-image.jpg" alt="Pasta image">
+			<h3>Pasta</h3>
+			<p>There are many different varieties of pasta. <br>They are usually sorted by size,<br> being long (pasta lunga),<br> short (pasta corta), <br>stuffed (ripiena), <br>cooked in broth (pastina), <br>stretched (strascinati) or in dumpling-like form (gnocchi/gnocchetti).</p>
+		</div>
+		
+	</section>
+		
+<section>
+<div id="grad1">
+<h1 id="c1"> contact us</h1>
+<p><b>+910987654321</b></p>
+
+</div>
+<div id="rot">
+<h1> feedback</h1></div>
+</section>
+<div id="loc"><h3>Location : Opp of Presidency University</h3>
+</div>
+<footer>
+		<p>&copy; 2024 Presidency Restaurant</p>
+	</footer>
+	
+</body>
+</html>
